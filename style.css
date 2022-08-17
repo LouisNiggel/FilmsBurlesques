@@ -1,0 +1,136 @@
+/*
+Theme Name: films burlesques
+Theme URI: https://www.films-burlesques.fr
+Author: lniggel
+Author URI: https://www.monsite.com
+Description: Thème WordPress créé le festival du Film Burlesque 2022.
+Tags: dark, multi-colonnes
+Version: 1.0
+*/
+
+/* Tailles et polices d'écriture */
+.titre_acc, .navbar-brand{
+    font-family: 'Oldenburg', cursive;
+}
+
+.titre_acc{
+    font-size: xxx-large;
+}
+
+.txt_acc, .txt_rob, .card-text{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+}
+
+label{
+    display: inline-block;
+}
+
+/* Body */
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+/* NavBar */
+.active{
+    color: #CF2E2E!important;
+}
+
+/* Bouton Scroll-to-Top */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+/* Main */
+main{
+    padding-bottom: 180px;
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        padding-bottom: 450px;
+    }
+}
+
+/* Footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a, footer a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:active{
+    color: red;
+    text-decoration: underline;
+}
+
+footer h4{
+    padding: 3% 0%;
+}
+
+.bi-facebook, .bi-twitter, .bi-instagram{
+    font-size: xx-large;
+}
+
+/* Accueil */
+#ici{
+    text-decoration: none;
+}
+
+#ici:active{
+    text-decoration: underline;
+}
+
+/* Festival */
+.fest_noms{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fest_noms:hover{
+    cursor: pointer;
+}
+
+.fest_noms:active{
+    text-decoration: underline;
+}
+
+/* Actualités & Programmation */
+.actus>div>button, .card{
+    margin-bottom: 20px;
+}
+
+.wp-block-columns{
+    margin-bottom: 0;
+}
+
+/* Film */
+.carousel-item img{
+    max-height: 400px;
+    margin-bottom: 15px;
+}
+
+/* Réservation & Contact */
+.formulaire{
+    padding-left: 20%!important;
+    padding-right: 20%!important;
+}
+
+@media screen and (max-width: 768px) {
+    .formulaire{
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+    }
+}
